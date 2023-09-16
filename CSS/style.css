@@ -1,0 +1,95 @@
+body {
+    font-family: "roboto";
+    background: #080808;
+    color: #fff;
+}
+header {
+    width: 100%;
+    height: 100vh;
+}
+nav {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center left;
+    justify-content: space-around;
+}
+nav a{
+    position: relative;
+    color: white;
+    text-decoration: none;
+    
+}
+nav a::before{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    background-color: red;
+    bottom: 0;
+    transition: 0.5s;
+}
+nav a:hover::before{
+    width: 100%;
+}
+.jiji{
+    width: 100%;
+    min-height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin-top: 77px;
+    margin-bottom: 77px;
+}
+.jiji>img{
+    width: 420px;
+    height: auto;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.jiji>img:hover{
+    width: 440px;
+    cursor: pointer;
+    height: auto;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.home1{
+    margin-top: 77px;
+}
+.parag{
+    margin-top: 88px;
+    margin-right: 88px;
+}
+.table_about{
+    border-right: 1px solid red;
+    border-bottom: 1px solid red;
+    border-top:  1px solid red;
+    
+}
+.table-head{
+    border-left: 1px solid red ;
+}
+
+.table-row,.skills,.experience,.education{
+    border-top:  1px solid red;
+    border-left:  1px solid red;
+}
+#contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+}
+#contact>a,.top{
+    text-decoration: none;
+    color: lightblue;
+    font-size: 20px;
+
+
+}
+.abm{
+    text-align: center;
+    font-size: 40px;
+}
