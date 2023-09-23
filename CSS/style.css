@@ -11,8 +11,13 @@ nav {
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    align-items: center left;
     justify-content: space-around;
+    /* margin-top: 50px; */
+    /* height: 40px; */
+    font-size: 25px;
+    position: sticky;
+    top: 0px;
+    background-color: #080808;
 }
 nav a{
     position: relative;
@@ -58,10 +63,11 @@ nav a:hover::before{
 }
 .home1{
     margin-top: 77px;
+    margin-bottom: 50px;
 }
 .parag{
     margin-top: 88px;
-    margin-right: 88px;
+    margin-right: 80px;
 }
 .table_about{
     border-right: 1px solid red;
@@ -91,5 +97,18 @@ nav a:hover::before{
 }
 .abm{
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
+}
+.parag{
+    font-size: 20px;
+    margin-bottom: 30px;
+
+
+}
+.home1 h1{
+    font-size: 50px;
+}
+.chess,.astronomy{
+    border-right: 1px solid red;
+
 }
